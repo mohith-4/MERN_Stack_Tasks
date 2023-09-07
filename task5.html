@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 5</title>
+    <style>
+        table{
+            width: 600px;
+           
+        }
+        h3{
+            color:blue;
+        }
+        label{
+            font-weight: bold;
+        }
+        .box{
+            width:100% ;
+            height: 100%;
+            box-sizing:border-box;
+            padding-bottom: 0;
+             
+        }
+        #register{
+            width: 200px;
+            margin-left: 35%;
+            
+        }
+        #address{
+            padding: 30px;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <center>
+    <h2>Task 5 </h2>
+
+<h3>Registration Form </h3>
+
+
+<table border="1" style="border-collapse: collapse;">
+    <form action="">
+        <tr>
+            <td>
+                <label for="fname">First Name</label>
+            </td>
+            <td>
+                <input type="text" name="" id="fname" class="box"> 
+            </td>
+           
+        </tr>
+        <tr>
+            <td>
+                <label for="lname">Lastname</label>
+            </td>
+            <td>
+                <input type="text" id="lname"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="email" id="email"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password</label>
+            </td>
+            <td>
+                <input type="password" id="password"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="rpassword">RE Password</label>
+            </td>
+            <td>
+                <input type="password" id="rpassword"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Gender">Gender</label>
+            </td>
+            <td>
+               
+                <input type="radio" id="male" value="male" name="Gender">
+                    <label for="male">Male</label>
+                   
+                    <hr>
+                    
+                    <input type="radio" id="male" value="male" name="Gender" >
+                    <label for="male">Female</label>
+                    
+                    </td>
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <td>
+                <input type="text" id="age"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phn">Phone Number</label>
+            </td>
+            <td>
+                <input type="tel" id="phn"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td id="address">
+                <label for="address">Address</label>
+            </td>
+            <td>
+                <input type="" id="address"  class="box">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="state">State</label>
+            </td>
+            <td>
+                <input type="text" id="state"  class="box"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="country">Country</label>
+            </td>
+            <td>
+                 <select name=" " id="country" >
+                    <option value="select">Select your country </option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Sri lanka">Sri Lanka</option>
+                 </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Language known</label>
+            </td>
+            <td >
+                <input type="checkbox" id="telugu" value="Telugu">
+                <label for="telugu">Telugu</label>
+                <input type="checkbox"  id="english" value="English">
+                <label for="english">English</label>
+                <input type="checkbox"  id="hindi" value="Hindi">
+                <label for="hindi">Hindi</label>
+                <input type="checkbox" id="kannada" value="Kannada">
+                <label for="kannada">Kannada</label>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" name="declare" id="declare">
+                <label for="declare">Hereby I declare all the given details are true </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align ="right">
+               Login to <a href="https://www.wikipedia.org/">Wikipedia</a> website
+             </td>
+        </tr>
+      
+        <td colspan="2">
+        <input type="submit" name="" id="register" value="Register">
+        </td>
+    
+    </form>
+
+</table>
+
+</center>
+</body>
+</html>
