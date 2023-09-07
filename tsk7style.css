@@ -1,0 +1,50 @@
+ table{
+    margin: auto;
+    background-color: rgb(117, 32, 63);
+    border-radius: 10px;
+    padding: 10px;
+    
+ }
+
+ div{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(162, 43, 85);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+ }
+ td{
+    padding-right: 15px;
+    color: aliceblue;
+ }
+
+ #regi{
+     color: aqua;
+     column-span: 2;  
+ }
+ #submit{
+   padding : 2% 15%;
+  
+   font-weight: bold;
+   margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+    
+ }
+
+ h2{
+   text-align: center;
+ }
+ #about{
+   height: 30px;
+   font-size: 10px;
+   text-align:initial;
+ }
+
+ input{
+   margin-top: 10px;
+ }
+ label{
+   font-size: 18px;
+ }
